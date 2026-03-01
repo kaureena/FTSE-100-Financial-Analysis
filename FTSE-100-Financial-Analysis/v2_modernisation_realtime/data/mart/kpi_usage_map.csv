@@ -1,0 +1,40 @@
+page_id,page_name,artifact,run_id,kpi_hint
+V2-P01,Footsie Pulse — Overview,mart.data_quality_health,v2_20260217T141158Z_c04a438c,see KPI_CATALOGUE.md
+V2-P01,Footsie Pulse — Overview,mart.market_overview,v2_20260217T141158Z_c04a438c,see KPI_CATALOGUE.md
+V2-P02,Intraday Terminal,mart.intraday_terminal,v2_20260217T141158Z_c04a438c,see KPI_CATALOGUE.md
+V2-P03,Volatility Regimes,mart.volatility_regimes,v2_20260217T141158Z_c04a438c,see KPI_CATALOGUE.md
+V2-P04,Drawdown & Risk,mart.drawdown_risk,v2_20260217T141158Z_c04a438c,see KPI_CATALOGUE.md
+V2-P05,Correlation Heatmap,mart.correlation_matrix,v2_20260217T141158Z_c04a438c,see KPI_CATALOGUE.md
+V2-P05,Correlation Heatmap,mart.correlation_pairs,v2_20260217T141158Z_c04a438c,see KPI_CATALOGUE.md
+V2-P06,Sector Rotation,mart.sector_rotation,v2_20260217T141158Z_c04a438c,see KPI_CATALOGUE.md
+V2-P07,Top Movers Watchlist,mart.top_movers,v2_20260217T141158Z_c04a438c,see KPI_CATALOGUE.md
+V2-P08,Technical Indicators,mart.technical_indicators,v2_20260217T141158Z_c04a438c,see KPI_CATALOGUE.md
+V2-P09,Forecasting Cockpit,mart.forecasting_cockpit,v2_20260217T141158Z_c04a438c,see KPI_CATALOGUE.md
+V2-P09,Forecasting Cockpit,mart.forecasting_metrics,v2_20260217T141158Z_c04a438c,see KPI_CATALOGUE.md
+V2-P09,Forecasting Cockpit,mart.model_runs,v2_20260217T141158Z_c04a438c,see KPI_CATALOGUE.md
+V2-P10,Backtesting Report,mart.backtesting_report,v2_20260217T141158Z_c04a438c,see KPI_CATALOGUE.md
+V2-P11,Model Monitoring,mart.alerts_register,v2_20260217T141158Z_c04a438c,see KPI_CATALOGUE.md
+V2-P11,Model Monitoring,mart.model_monitoring,v2_20260217T141158Z_c04a438c,see KPI_CATALOGUE.md
+V2-P12,Data Quality & Coverage,mart.data_quality_health,v2_20260217T141158Z_c04a438c,see KPI_CATALOGUE.md
+V2-P12,Data Quality & Coverage,mart.dq_issue_register,v2_20260217T141158Z_c04a438c,see KPI_CATALOGUE.md
+V2-P12,Data Quality & Coverage,mart.market_overview,v2_20260217T141158Z_c04a438c,see KPI_CATALOGUE.md
+V2-P13,Pipeline Health & Refresh,mart.pipeline_health,v2_20260217T141158Z_c04a438c,see KPI_CATALOGUE.md
+V2-P14,Latency & SLA,mart.latency_sla,v2_20260217T141158Z_c04a438c,see KPI_CATALOGUE.md
+V2-P16,Board Pack One‑Pager,mart.board_pack,v2_20260217T141158Z_c04a438c,see KPI_CATALOGUE.md
+V2-P17,KPI Dictionary,mart.kpi_dictionary,v2_20260217T141158Z_c04a438c,see KPI_CATALOGUE.md
+V2-P17,KPI Dictionary,mart.kpi_usage_map,v2_20260217T141158Z_c04a438c,see KPI_CATALOGUE.md
+V2-P18,Measure Catalogue,mart.measure_catalogue,v2_20260217T141158Z_c04a438c,see KPI_CATALOGUE.md
+V2-P18,Measure Catalogue,mart.measure_dependencies,v2_20260217T141158Z_c04a438c,see KPI_CATALOGUE.md
+V2-P18,Measure Catalogue,mart.measure_usage_map,v2_20260217T141158Z_c04a438c,see KPI_CATALOGUE.md
+V2-P19,Data Inventory,mart.data_inventory,v2_20260217T141158Z_c04a438c,see KPI_CATALOGUE.md
+V2-P19,Data Inventory,mart.data_usage_map,v2_20260217T141158Z_c04a438c,see KPI_CATALOGUE.md
+V2-P19,Data Inventory,mart.market_overview,v2_20260217T141158Z_c04a438c,see KPI_CATALOGUE.md
+V2-P20,Lineage Explained,mart.failure_impact,v2_20260217T141158Z_c04a438c,see KPI_CATALOGUE.md
+V2-P20,Lineage Explained,mart.lineage_details,v2_20260217T141158Z_c04a438c,see KPI_CATALOGUE.md
+V2-P20,Lineage Explained,mart.lineage_map,v2_20260217T141158Z_c04a438c,see KPI_CATALOGUE.md
+V2-P20,Lineage Explained,mart.market_overview,v2_20260217T141158Z_c04a438c,see KPI_CATALOGUE.md
+V2-P21,Incident Timeline,mart.incident_register,v2_20260217T141158Z_c04a438c,see KPI_CATALOGUE.md
+V2-P21,Incident Timeline,mart.incident_timeline,v2_20260217T141158Z_c04a438c,see KPI_CATALOGUE.md
+V2-P22,Release Notes & Versions,mart.release_impacts,v2_20260217T141158Z_c04a438c,see KPI_CATALOGUE.md
+V2-P22,Release Notes & Versions,mart.release_kpi_trends,v2_20260217T141158Z_c04a438c,see KPI_CATALOGUE.md
+V2-P22,Release Notes & Versions,mart.release_versions,v2_20260217T141158Z_c04a438c,see KPI_CATALOGUE.md

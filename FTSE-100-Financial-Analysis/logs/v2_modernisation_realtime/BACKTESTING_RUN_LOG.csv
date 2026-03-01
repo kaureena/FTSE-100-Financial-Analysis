@@ -1,0 +1,2 @@
+backtest_id,date,window,split_method,models,metric,best_model,notes,evidence_path
+BT-001,2026-02-12,2025-11..2026-02,walk-forward,ARIMA_BASELINE|LSTM_BASELINE,RMSE,LSTM_BASELINE,Baseline backtest for ranking stability,v2_modernisation_realtime/forecasting/backtesting/*

@@ -1,0 +1,10 @@
+measure,depends_on,run_id
+delta_pct,close,v2_20260217T141158Z_c04a438c
+delta_pct,prev_close,v2_20260217T141158Z_c04a438c
+realised_vol_20,close,v2_20260217T141158Z_c04a438c
+realised_vol_20,ret_5m,v2_20260217T141158Z_c04a438c
+drawdown_pct,close,v2_20260217T141158Z_c04a438c
+drawdown_pct,cummax,v2_20260217T141158Z_c04a438c
+rsi_14,close,v2_20260217T141158Z_c04a438c
+macd,ema12,v2_20260217T141158Z_c04a438c
+macd,ema26,v2_20260217T141158Z_c04a438c

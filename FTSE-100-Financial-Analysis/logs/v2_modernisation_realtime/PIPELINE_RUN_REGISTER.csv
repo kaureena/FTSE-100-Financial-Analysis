@@ -1,0 +1,4 @@
+run_id,run_timestamp_london,data_source,window_start,window_end,status,duration_seconds,rows_bronze,rows_silver,rows_gold,rows_mart,dq_score,exports_count,notes
+V2RUN-20260212-01,2026-02-12T10:05:00,snapshot,2025-11-03,2026-02-11,Success,58,12000,11850,2500,1800,98.5,22,Initial platform run; monitoring reports generated
+V2RUN-20260214-02,2026-02-14T14:20:00,snapshot,2025-11-03,2026-02-13,Success,64,12400,12190,2620,1950,99.0,22,Marts created; DuckDB loaded
+V2RUN-20260215-03,2026-02-15T09:12:00,snapshot,2025-11-03,2026-02-14,Success,48,12520,12310,2650,1980,99.2,22,Exports produced from marts only

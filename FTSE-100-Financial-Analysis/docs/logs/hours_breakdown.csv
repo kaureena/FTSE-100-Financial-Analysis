@@ -1,0 +1,29 @@
+date,iso_week,stream,category,task,hours,evidence_path
+19/07/2024,2026-W04,Planning,Docs,Repo charter + UK terminal theme research,2,assets/branding/REPO_THEME_GUIDE.md
+20/07/2024,2026-W04,Planning,Dashboards,Dashboard page spec + layout grid draft,2,docs/dashboards/
+21/07/2024,2026-W04,Planning,Docs,Mermaid architecture + lineage skeletons,2,docs/mermaid/
+22/07/2024,2026-W04,Planning,Data,Reference data plan (constituents universe + weights),2,REFERENCE_DATA.md
+23/07/2024,2026-W04,Planning,Docs,README polish + repo navigation,1,README.md
+26/07/2024,2026-W05,V1,Data,Snapshot ingest script + caching strategy,3,DATA_PROVIDERS.md
+27/07/2024,2026-W05,V1,Data,Cleaning + Europe/London tz normalisation,3,v1_dissertation_baseline/data/processed/
+28/07/2024,2026-W05,V1,QA,DQ rules (gaps/dupes/OHLC) + snapshot JSON,3,v1_dissertation_baseline/outputs/metrics/dq_snapshot.json
+29/07/2024,2026-W05,V1,Modeling,ARIMA baseline setup + diagnostics notes,3,v1_dissertation_baseline/outputs/metrics/arima_model_summary.txt
+30/07/2024,2026-W05,V1,Notebooks,V1 notebook narrative + plots,2,v1_dissertation_baseline/notebooks/
+31/07/2024,2026-W05,V1,Docs,V1 packaging + repo docs alignment,1,v1_dissertation_baseline/
+01/08/2024,2026-W05,V1,QA,Review of dataset + KPI reconciliation,1,v1_dissertation_baseline/outputs/metrics/session_kpis.csv
+02/08/2024,2026-W06,V1,Modeling,ARIMA training + 10m forecast export,4,v1_dissertation_baseline/outputs/metrics/arima_metrics.json
+03/08/2024,2026-W06,V1,Modeling,LSTM data prep + training run,4,v1_dissertation_baseline/outputs/metrics/lstm_training_history.csv
+04/08/2024,2026-W06,V1,Modeling,LSTM tuning + forecast export,4,v1_dissertation_baseline/outputs/metrics/lstm_metrics.json
+05/08/2024,2026-W06,V1,Dashboards,V1 exports pages 1–4 (4K),4,docs/dashboards/V1/exports/
+06/08/2024,2026-W06,V1,Dashboards,V1 exports pages 5–7 + export validation,3,docs/dashboards/V1/exports/
+07/08/2024,2026-W06,V1,Docs,Map V1 pages to dissertation narrative,2,docs/dissertation/
+08/08/2024,2026-W06,V1,QA,Visual QA + naming/ordering pass,1,MANIFEST.md
+11/02/2026,2026-W07,V2,Data Eng,Bronze/silver/gold pipelines + partition conventions,5,v2_modernisation_realtime/data/
+12/02/2026,2026-W07,V2,Data Eng,Mart table design + materialisation (CSV+parquet),5,v2_modernisation_realtime/data/mart/
+13/02/2026,2026-W07,V2,Ops,"Monitoring reports (DQ, drift, latency, incidents)",5,v2_modernisation_realtime/monitoring/reports/
+14/02/2026,2026-W07,V2,Dashboards,V2 dashboard exports batch (4K),5,docs/dashboards/V2/exports/
+15/02/2026,2026-W07,V2,Platform,DuckDB warehouse build + local querying,4,v2_modernisation_realtime/db/warehouse.duckdb
+16/02/2026,2026-W07,V2,Data/Docs,Events enrichment stub + provider notes,1,DATA_PROVIDERS.md
+17/02/2026,2026-W07,V2,QA,Runbook review + smoke tests,1,tests/
+18/02/2026,2026-W08,V2,BI/PowerBI,Create Power BI export pack (neon terminal pages),4,v2_modernisation_realtime/bi_powerbi/exports/
+19/02/2026,2026-W08,Repo,Docs/Ops,Governance logs + V1 diagrams/dashboards folders,4,LOGBOOK.md; v1_dissertation_baseline/docs/

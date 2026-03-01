@@ -1,0 +1,68 @@
+%% V1 Mermaid Pack (Skeletons)
+%% These are diagram code skeletons to complement the rendered PNGs in this folder.
+%% GitHub renders Mermaid diagrams inside Markdown fences.
+
+%% ------------------------------------------------------------
+%% 1) V1 architecture / pipeline
+%% ------------------------------------------------------------
+flowchart LR
+    RAW[Raw snapshot\n(1m intraday)] --> CLEAN[Cleaning + DQ]
+    CLEAN --> FEAT[Feature Engineering]
+    FEAT --> ARIMA[ARIMA baseline]
+    FEAT --> LSTM[LSTM baseline]
+    ARIMA --> COMP[Model comparison]
+    LSTM --> COMP
+    CLEAN --> DQ[Data quality snapshot]
+    COMP --> EXP[4K Export pack\n7 pages]
+    DQ --> EXP
+
+%% ------------------------------------------------------------
+%% 2) V1 dashboard lineage
+%% ------------------------------------------------------------
+flowchart TB
+    subgraph Artefacts
+      A1[Processed intraday]:::a
+      A2[Features]:::a
+      A3[ARIMA outputs]:::a
+      A4[LSTM outputs]:::a
+      A5[Comparison table]:::a
+      A6[DQ snapshot]:::a
+    end
+
+    subgraph Pages
+      P1[Page 01 Market overview]:::p
+      P2[Page 02 Candles + Volume]:::p
+      P3[Page 03 Moving averages]:::p
+      P4[Page 04 ARIMA forecast]:::p
+      P5[Page 05 LSTM forecast]:::p
+      P6[Page 06 Model comparison]:::p
+      P7[Page 07 Data quality]:::p
+    end
+
+    A1 --> P1
+    A1 --> P2
+    A1 --> P3
+    A2 --> P3
+    A3 --> P4
+    A4 --> P5
+    A5 --> P6
+    A6 --> P7
+
+    classDef a fill:#0B1324,stroke:#00E5FF,color:#E5E7EB;
+    classDef p fill:#0B1324,stroke:#A78BFA,color:#E5E7EB;
+
+%% ------------------------------------------------------------
+%% 3) V1 model lifecycle (sequence)
+%% ------------------------------------------------------------
+sequenceDiagram
+    participant D as Data Prep
+    participant M as Model Train
+    participant F as Forecast
+    participant E as Evaluate
+    participant X as Export
+
+    D->>M: Build training dataset (windowed)
+    M->>F: Fit ARIMA / train LSTM
+    F->>E: Generate 10-minute forecasts
+    E->>X: Save MAE/RMSE + charts
+    X->>X: Render 4K exports (7 pages)

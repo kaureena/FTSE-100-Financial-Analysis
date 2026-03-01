@@ -1,0 +1,5 @@
+version_tag,date,summary,run_id
+V1.0,2026-02-14,Dissertation replay baseline (ARIMA + LSTM + 7 pages),v2_20260217T141158Z_c04a438c
+V1.1,2026-02-15,Contracts + provider layer + caching,v2_20260217T141158Z_c04a438c
+V2.0,2026-02-16,Medallion platform + 22 neon terminal dashboards,v2_20260217T141158Z_c04a438c
+V2.1,2026-02-17,Terminal realism: constituents + macro/earnings calendar + marts + warehouse,v2_20260217T141158Z_c04a438c

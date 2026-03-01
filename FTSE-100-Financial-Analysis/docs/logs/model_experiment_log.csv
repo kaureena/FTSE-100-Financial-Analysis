@@ -1,0 +1,4 @@
+experiment_id,date,stream,component,setup,metric,value,outcome,evidence_path
+EXP-001,02/08/2024,V1,ARIMA,"(p,d,q) grid search (small)",RMSE,2.52,Selected stable config; baseline forecast,v1_dissertation_baseline/outputs/metrics/arima_metrics.json
+EXP-002,03/08/2024,V1,LSTM,1-layer vs 2-layer; lookback=30,MAE,3.26,Chose lightweight architecture for portability,v1_dissertation_baseline/outputs/metrics/lstm_metrics.json
+EXP-003,11/02/2026,V2,Drift,Return drift last20 vs prev20,mean_shift,0.0008,Used as monitoring proxy; documented limitations,v2_modernisation_realtime/data/mart/model_monitoring.*

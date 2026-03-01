@@ -1,0 +1,2 @@
+alert_type,severity,message,run_id,created_at,status
+PIPELINE_RUNTIME,LOW,25 SLA breach(es) in last 14d,v2_20260217T141158Z_c04a438c,2026-02-17T14:12:00Z,open

@@ -1,0 +1,20 @@
+date,iso_week,stream,category,task,hours,evidence_path
+19/01/2026,2026-W04,Planning,Docs,Repo charter + UK terminal theme research,2,assets/branding/REPO_THEME_GUIDE.md
+20/01/2026,2026-W04,Planning,Dashboards,Dashboard page spec + layout grid draft,2,docs/dashboards/
+21/01/2026,2026-W04,Planning,Docs,Mermaid architecture + lineage skeletons,2,docs/mermaid/
+22/01/2026,2026-W04,Planning,Data,Reference data plan (constituents universe + weights),2,REFERENCE_DATA.md
+23/01/2026,2026-W04,Planning,Docs,README polish + repo navigation,1,README.md
+24/07/2024,2024-W05,V1,Data,Snapshot ingest script + caching strategy,3,DATA_PROVIDERS.md
+25/07/2024,2024-W05,V1,Data,Cleaning + Europe/London tz normalisation,3,v1_dissertation_baseline/data/processed/
+26/07/2024,2024-W05,V1,QA,DQ rules (gaps/dupes/OHLC) + snapshot JSON,3,v1_dissertation_baseline/outputs/metrics/dq_snapshot.json
+27/07/2024,2024-W05,V1,Modeling,ARIMA baseline setup + diagnostics notes,3,v1_dissertation_baseline/outputs/metrics/arima_model_summary.txt
+28/07/2024,2024-W05,V1,Notebooks,V1 notebook narrative + plots,2,v1_dissertation_baseline/notebooks/
+29/07/2024,2024-W05,V1,Docs,V1 packaging + repo docs alignment,1,v1_dissertation_baseline/
+30/07/2024,2024-W05,V1,QA,Review of dataset + KPI reconciliation,1,v1_dissertation_baseline/outputs/metrics/session_kpis.csv
+31/07/2024,2024-W06,V1,Modeling,ARIMA training + 10m forecast export,4,v1_dissertation_baseline/outputs/metrics/arima_metrics.json
+01/08/2024,2024-W06,V1,Modeling,LSTM data prep + training run,4,v1_dissertation_baseline/outputs/metrics/lstm_training_history.csv
+02/08/2024,2024-W06,V1,Modeling,LSTM tuning + forecast export,4,v1_dissertation_baseline/outputs/metrics/lstm_metrics.json
+03/08/2024,2024-W06,V1,Dashboards,V1 exports pages 1–4 (4K),4,docs/dashboards/V1/exports/
+04/08/2024,2024-W06,V1,Dashboards,V1 exports pages 5–7 + export validation,3,docs/dashboards/V1/exports/
+05/08/2024,2024-W06,V1,Docs,Map V1 pages to dissertation narrative,2,docs/dissertation/
+06/08/2024,2024-W06,V1,QA,Visual QA + naming/ordering pass,1,MANIFEST.md

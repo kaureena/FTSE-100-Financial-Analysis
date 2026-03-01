@@ -1,0 +1,26 @@
+{
+  "dataset": "ftse100_intraday_1m",
+  "timezone": "Europe/London",
+  "source": "provider:snapshot",
+  "source_details": {
+    "provider": "snapshot",
+    "symbol": "^FTSE",
+    "interval": "1m",
+    "start_london": "2026-02-13 08:00:00+00:00",
+    "end_london": "2026-02-13 16:30:00+00:00",
+    "cache_dir": "/mnt/data/FTSE_repo_work/FTSE-100-Financial-Analysis/data_cache"
+  },
+  "rows": 511,
+  "columns": [
+    "timestamp",
+    "open",
+    "high",
+    "low",
+    "close",
+    "volume",
+    "date",
+    "time",
+    "symbol"
+  ],
+  "processed_path": "/mnt/data/FTSE_repo_work/FTSE-100-Financial-Analysis/v1_dissertation_baseline/data/processed/ftse100_intraday_1m_clean.parquet"
+}

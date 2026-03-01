@@ -1,0 +1,3 @@
+snapshot_date,model_id,metric,value,baseline,delta,status,notes,evidence_path
+2026-02-14,LSTM_BASELINE,rolling_rmse,1.42,1.35,+0.07,WARN,Slight degradation in recent window; monitor drift proxy,v2_modernisation_realtime/monitoring/reports/return_drift_last20_vs_prev20.json
+2026-02-14,ARIMA_BASELINE,rolling_rmse,1.55,1.50,+0.05,WARN,Expected under stress regimes; baseline only,v2_modernisation_realtime/monitoring/reports/return_drift_last20_vs_prev20.json

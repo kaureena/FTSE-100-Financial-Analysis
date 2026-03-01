@@ -1,0 +1,6 @@
+measure,expression,grain
+Close,close,daily
+Return (1d),close.pct_change(),daily
+Vol (20d),"std(return,20)*sqrt(252)",daily
+Drawdown,close/cummax(close)-1,daily
+Sector return,"wavg(constituent_return, index_weight)",daily/sector

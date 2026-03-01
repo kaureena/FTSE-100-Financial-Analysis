@@ -1,0 +1,21 @@
+run_id,model,horizon_step,mae,rmse,bias,n_samples,notes
+V1RUN-20260205-01,ARIMA,1,0.95,1.2,0.01,10,Horizon-based eval
+V1RUN-20260205-01,LSTM,1,0.82,1.07,0.008,10,Horizon-based eval
+V1RUN-20260205-01,ARIMA,2,1.1,1.4,0.02,10,Horizon-based eval
+V1RUN-20260205-01,LSTM,2,0.94,1.24,0.016,10,Horizon-based eval
+V1RUN-20260205-01,ARIMA,3,1.25,1.6,0.03,10,Horizon-based eval
+V1RUN-20260205-01,LSTM,3,1.06,1.41,0.024,10,Horizon-based eval
+V1RUN-20260205-01,ARIMA,4,1.4,1.8,0.04,10,Horizon-based eval
+V1RUN-20260205-01,LSTM,4,1.18,1.58,0.032,10,Horizon-based eval
+V1RUN-20260205-01,ARIMA,5,1.55,2.0,0.05,10,Horizon-based eval
+V1RUN-20260205-01,LSTM,5,1.3,1.75,0.04,10,Horizon-based eval
+V1RUN-20260205-01,ARIMA,6,1.7,2.2,0.06,10,Horizon-based eval
+V1RUN-20260205-01,LSTM,6,1.42,1.92,0.048,10,Horizon-based eval
+V1RUN-20260205-01,ARIMA,7,1.85,2.4,0.07,10,Horizon-based eval
+V1RUN-20260205-01,LSTM,7,1.54,2.09,0.056,10,Horizon-based eval
+V1RUN-20260205-01,ARIMA,8,2.0,2.6,0.08,10,Horizon-based eval
+V1RUN-20260205-01,LSTM,8,1.66,2.26,0.064,10,Horizon-based eval
+V1RUN-20260205-01,ARIMA,9,2.15,2.8,0.09,10,Horizon-based eval
+V1RUN-20260205-01,LSTM,9,1.78,2.43,0.072,10,Horizon-based eval
+V1RUN-20260205-01,ARIMA,10,2.3,3.0,0.1,10,Horizon-based eval
+V1RUN-20260205-01,LSTM,10,1.9,2.6,0.08,10,Horizon-based eval

@@ -1,0 +1,13 @@
+work_package,task_id,task_name,workstream,category,hours,deliverables,evidence_path,status
+WP-01,T-001,Repo theme + UK Neon Terminal rules,Repo,docs,3.5,Theme guide + export rules,assets/branding/REPO_THEME_GUIDE.md,Done
+WP-01,T-002,Mermaid architecture/lineage/lifecycle/monitoring diagrams,Repo,docs,3.0,Mermaid pack,docs/mermaid/*,Done
+WP-02,T-010,V1 data snapshot + DQ gate,V1,data,3.0,Raw+processed data + dq_snapshot,v1_dissertation_baseline/data/*; v1_dissertation_baseline/outputs/metrics/*,Done
+WP-02,T-011,ARIMA baseline + metrics,V1,model,2.5,arima_forecast + metrics,v1_dissertation_baseline/outputs/forecasts/*; outputs/metrics/*,Done
+WP-02,T-012,LSTM baseline + metrics,V1,model,4.0,lstm_forecast + history,v1_dissertation_baseline/outputs/forecasts/*; outputs/metrics/*,Done
+WP-02,T-013,V1 export pack (7 pages),V1,dashboards,2.0,7 PNG exports,docs/dashboards/V1/exports/*,Done
+WP-03,T-020,V2 bronze/silver/gold pipeline,V2,data,4.0,medallion zones,v2_modernisation_realtime/data/*,Done
+WP-03,T-021,V2 DQ + monitoring reports,V2,monitoring,3.0,dq reports + latency,v2_modernisation_realtime/monitoring/reports/*,Done
+WP-03,T-022,V2 mart layer + DuckDB warehouse,V2,platform,3.0,marts + warehouse,v2_modernisation_realtime/data/mart/*; v2_modernisation_realtime/db/warehouse.duckdb,Done
+WP-03,T-023,V2 export pack (22 pages) from marts,V2,dashboards,3.0,22 PNG exports,docs/dashboards/V2/exports/*,Done
+WP-04,T-030,Terminal realism: constituents + events + news stubs,V2,data,2.5,universe + events calendar,data/reference/*; v2_modernisation_realtime/data/gold/events_calendar.*,Done
+WP-05,T-040,Governance logs expansion & centralisation,Repo,ops,4.0,Logs pack,logs/*,Done

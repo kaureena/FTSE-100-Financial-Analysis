@@ -1,0 +1,8 @@
+work_package,task_id,task_name,workstream,category,hours,deliverables,evidence_path,status
+WP-01,T-001,Repo theme + UK Neon Terminal rules,Repo,docs,3.5,Theme guide + export rules,assets/branding/REPO_THEME_GUIDE.md,Done
+WP-01,T-002,Mermaid architecture/lineage/lifecycle/monitoring diagrams,Repo,docs,3.0,Mermaid pack,docs/mermaid/*,Done
+WP-02,T-010,V1 data snapshot + DQ gate,V1,data,3.0,Raw+processed data + dq_snapshot,v1_dissertation_baseline/data/*; v1_dissertation_baseline/outputs/metrics/*,Done
+WP-02,T-011,ARIMA baseline + metrics,V1,model,2.5,arima_forecast + metrics,v1_dissertation_baseline/outputs/forecasts/*; outputs/metrics/*,Done
+WP-02,T-012,LSTM baseline + metrics,V1,model,4.0,lstm_forecast + history,v1_dissertation_baseline/outputs/forecasts/*; outputs/metrics/*,Done
+WP-02,T-013,V1 export pack (7 pages),V1,dashboards,2.0,7 PNG exports,docs/dashboards/V1/exports/*,Done
+WP-05,T-040,Governance logs expansion & centralisation,Repo,ops,4.0,Logs pack,logs/*,Done

@@ -1,0 +1,7 @@
+issue_id,date_opened,workstream,component,summary,severity,status,owner,evidence_path,root_cause,resolution,date_closed
+ISSUE-001,2026-02-11,V2,data,Intraday gaps detected during session window,Medium,Closed,Data Lead,v2_modernisation_realtime/dq_data_quality/reports/*,Provider gaps,DQ rule added; gaps flagged; export banner added,2026-02-12
+ISSUE-002,2026-02-14,V2,platform,Spec referenced mart tables but marts not materialised,High,Closed,Platform Owner,v2_modernisation_realtime/data/mart/*,Missing curated layer,Materialised marts + updated docs,2026-02-14
+ISSUE-003,2026-02-14,Repo,dashboards,Export resolution inconsistent due to tight bbox cropping,Medium,Closed,Dashboard Owner,docs/dashboards/*/exports/*,Export config,Forced fixed 4K canvas + export audit,2026-02-14
+ISSUE-004,2026-02-16,V2,reference,Events calendar parquet missing (dtype mix),Low,Closed,Data Lead,v2_modernisation_realtime/data/gold/events_calendar.parquet,Mixed dtypes,Schema enforced; parquet write succeeds,2026-02-16
+ISSUE-005,2026-02-17,Repo,governance,Logs not dense enough for final portfolio polish,High,Closed,Repo Owner,logs/*,Insufficient governance artefacts,Expanded logs suite; centralised in logs folder,2026-02-17
+ISSUE-006,2026-02-17,V2,events,Events/news stubs may be misread as live feeds,Medium,Open,Repo Owner,data/reference/*; docs/*,Ambiguous labelling,Add additional banner labels + doc callouts (pending),

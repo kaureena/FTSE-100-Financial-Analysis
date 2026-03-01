@@ -1,0 +1,20 @@
+[project]
+name = "ftse-100-financial-analysis"
+version = "2.1.0"
+description = "FTSE 100 Financial Analysis — dissertation baseline (V1) + modern platform (V2)"
+requires-python = ">=3.10"
+readme = "README.md"
+license = { text = "MIT" }
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 110
+target-version = "py311"
+select = ["E", "F", "I"]
+ignore = ["E501"]
+
+[tool.ruff.isort]
+known-first-party = ["ftse100"]

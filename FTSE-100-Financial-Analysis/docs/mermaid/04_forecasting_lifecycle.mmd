@@ -1,0 +1,12 @@
+%% Forecasting Lifecycle (V2)
+stateDiagram-v2
+  [*] --> DataReady: DQ pass + freshness ok
+  DataReady --> FeatureBuild: returns/vol/indicators
+  FeatureBuild --> TrainOrLoad: (re)train OR load latest model
+  TrainOrLoad --> Forecast: generate horizon predictions
+  Forecast --> Evaluate: compute MAE/RMSE + coverage
+  Evaluate --> Publish: write to mart.forecasting_* tables
+  Publish --> Monitor: drift + error tracking
+  Monitor --> RetrainDecision: breach thresholds?
+  RetrainDecision --> TrainOrLoad: yes
+  RetrainDecision --> DataReady: no

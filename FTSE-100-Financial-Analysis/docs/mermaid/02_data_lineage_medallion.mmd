@@ -1,0 +1,51 @@
+%% FTSE-100-Financial-Analysis — Data Lineage (Medallion)
+flowchart TB
+  subgraph RAW[Raw]
+    R1[(raw: provider snapshots)]
+    R2[(raw: events optional)]
+  end
+
+  subgraph STG[Staged]
+    S1[(staged: ohlcv_clean)]
+    S2[(staged: calendar_joined)]
+  end
+
+  subgraph CUR[Curated]
+    C1[(curated: returns + vol)]
+    C2[(curated: indicators
+RSI/MACD/BB)]
+    C3[(curated: model_features)]
+  end
+
+  subgraph MART[Marts]
+    M1[(mart.market_overview)]
+    M2[(mart.intraday_terminal)]
+    M3[(mart.volatility_regimes)]
+    M4[(mart.drawdown_risk)]
+    M5[(mart.forecasting_cockpit)]
+    M6[(mart.model_monitoring)]
+    M7[(mart.pipeline_health)]
+    M8[(mart.data_quality_health)]
+  end
+
+  subgraph DASH[Dashboards]
+    D1[V2-P01 Overview]
+    D2[V2-P02 Intraday]
+    D3[V2-P03 Vol Regimes]
+    D4[V2-P04 Risk]
+    D5[V2-P09 Forecasting]
+    D6[V2-P11 Monitoring]
+    D7[V2-P13 Pipeline Health]
+    D8[V2-P12 DQ]
+  end
+
+  R1 --> S1 --> C1 --> M1 --> D1
+  R1 --> S1 --> C1 --> M2 --> D2
+  R1 --> S1 --> C1 --> M3 --> D3
+  R1 --> S1 --> C1 --> M4 --> D4
+  C3 --> M5 --> D5
+  C1 --> M6 --> D6
+  M7 --> D7
+  M8 --> D8
+
+  R2 --> S2 --> C1

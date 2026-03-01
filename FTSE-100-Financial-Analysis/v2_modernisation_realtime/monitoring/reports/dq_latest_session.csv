@@ -1,0 +1,7 @@
+name,passed,severity,details
+no_duplicate_timestamps,True,INFO,duplicate_timestamps=0
+timestamp_monotonic_increasing,True,INFO,is_monotonic=True
+no_large_time_gaps,True,INFO,gaps_gt_60s=0
+ohlc_sanity,True,INFO,bad_rows=0
+volume_non_negative,True,INFO,negative_volume_rows=0
+return_outliers_z_gt_6,True,INFO,outlier_rows=0

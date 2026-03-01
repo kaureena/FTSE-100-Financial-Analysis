@@ -1,0 +1,5 @@
+week_start,week_end,planned_hours,actual_hours,primary_focus,evidence_paths
+2026-01-26,2026-02-01,8.0,8.0,Specs + theme + mermaids,docs/dashboards/*/pages; docs/mermaid/*; assets/branding/*
+2026-02-02,2026-02-08,13.0,14.0,Specs + theme + mermaids,docs/dashboards/*/pages; docs/mermaid/*; assets/branding/*
+2026-02-09,2026-02-15,12.5,13.5,V1 build + exports,v1_dissertation_baseline/*; docs/dashboards/V1/exports/*
+2026-02-16,2026-02-17,4.0,4.0,V2 build + marts + exports + terminal realism,v2_modernisation_realtime/*; docs/dashboards/V2/exports/*; data/reference/*

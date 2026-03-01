@@ -1,0 +1,50 @@
+{
+  "layout": {
+    "paper_bgcolor": "#0B0F14",
+    "plot_bgcolor": "#111826",
+    "font": {
+      "family": "Inter, Segoe UI, sans-serif",
+      "color": "#E6EDF7"
+    },
+    "xaxis": {
+      "gridcolor": "#263248",
+      "zerolinecolor": "#263248",
+      "tickfont": {
+        "color": "#A7B4C6"
+      },
+      "titlefont": {
+        "color": "#A7B4C6"
+      }
+    },
+    "yaxis": {
+      "gridcolor": "#263248",
+      "zerolinecolor": "#263248",
+      "tickfont": {
+        "color": "#A7B4C6"
+      },
+      "titlefont": {
+        "color": "#A7B4C6"
+      }
+    },
+    "colorway": [
+      "#2DE38A",
+      "#FF5C7A",
+      "#52A8FF",
+      "#FFB020",
+      "#B067FF",
+      "#38D9FF"
+    ],
+    "legend": {
+      "font": {
+        "color": "#A7B4C6"
+      },
+      "bgcolor": "rgba(0,0,0,0)"
+    },
+    "hoverlabel": {
+      "bgcolor": "#141D2D",
+      "font": {
+        "color": "#E6EDF7"
+      }
+    }
+  }
+}

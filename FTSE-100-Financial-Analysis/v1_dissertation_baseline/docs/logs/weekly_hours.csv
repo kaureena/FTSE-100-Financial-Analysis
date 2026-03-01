@@ -1,0 +1,4 @@
+week_start,week_end,iso_week,total_hours,focus_area,notes
+19/01/2026,25/01/2026,2026-W04,9,Planning / theme + dashboard spec,"Initial repo positioning, UK terminal theme, page storyboard."
+26/07/2024,01/08/2024,2026-W05,16,V1 baseline data + DQ,"Snapshot ingest, cleaning, DQ rules, KPI baseline."
+02/08/2024,08/08/2024,2026-W06,22,V1 modelling + exports,"ARIMA + LSTM runs, forecasts, initial 4K exports."

@@ -1,0 +1,4 @@
+run_id,dataset,dq_score,rule_pass_rate,missing_bars,duplicate_timestamps,ohlc_sanity_failures,notes
+V2RUN-20260212-01,silver.ftse100_intraday,98.5,0.985,3,0,0,3 minor gaps flagged; no duplicates
+V2RUN-20260214-02,mart.market_overview,99.0,0.990,0,0,0,DQ clean after session window alignment
+V2RUN-20260215-03,mart.forecasting_cockpit,99.2,0.992,0,0,0,DQ clean; exports proceed

@@ -1,0 +1,101 @@
+as_of_date,source,company_name,epic,ticker,sector,icb_sector,index_weight,weight_rank
+2025-12-19,Wikipedia:FTSE_100_Index,Shell plc,SHEL,SHEL.L,Energy,Oil & gas producers,0.075,1
+2025-12-19,Wikipedia:FTSE_100_Index,AstraZeneca,AZN,AZN.L,Health Care,Pharmaceuticals & biotechnology,0.072,2
+2025-12-19,Wikipedia:FTSE_100_Index,HSBC,HSBA,HSBA.L,Financials,Banks,0.06,3
+2025-12-19,Wikipedia:FTSE_100_Index,Unilever,ULVR,ULVR.L,Consumer Discretionary,Personal goods,0.048,4
+2025-12-19,Wikipedia:FTSE_100_Index,BP,BP,BP.L,Energy,Oil & gas producers,0.04,5
+2025-12-19,Wikipedia:FTSE_100_Index,Rio Tinto,RIO,RIO.L,Materials,Mining,0.035,6
+2025-12-19,Wikipedia:FTSE_100_Index,GSK plc,GSK,GSK.L,Health Care,Pharmaceuticals & biotechnology,0.03,7
+2025-12-19,Wikipedia:FTSE_100_Index,Diageo,DGE,DGE.L,Consumer Staples,Beverages,0.028,8
+2025-12-19,Wikipedia:FTSE_100_Index,London Stock Exchange Group,LSEG,LSEG.L,Financials,Financial services,0.025,9
+2025-12-19,Wikipedia:FTSE_100_Index,RELX,REL,REL.L,Communication Services,Media,0.022,10
+2025-12-19,Wikipedia:FTSE_100_Index,British American Tobacco,BATS,BATS.L,Consumer Staples,Tobacco,0.02,11
+2025-12-19,Wikipedia:FTSE_100_Index,Barclays,BARC,BARC.L,Financials,Banks,0.019,12
+2025-12-19,Wikipedia:FTSE_100_Index,National Grid plc,NG,NG.L,Utilities,Multiline utilities,0.018,13
+2025-12-19,Wikipedia:FTSE_100_Index,Lloyds Banking Group,LLOY,LLOY.L,Financials,Banks,0.017,14
+2025-12-19,Wikipedia:FTSE_100_Index,Prudential plc,PRU,PRU.L,Financials,Life insurance,0.016,15
+2025-12-19,Wikipedia:FTSE_100_Index,St. James's Place,STJ,STJ.L,Financials,Financial services,0.0153113381270981,16
+2025-12-19,Wikipedia:FTSE_100_Index,Rentokil Initial,RTO,RTO.L,Industrials,Support services,0.014578257138863,17
+2025-12-19,Wikipedia:FTSE_100_Index,Mondi,MNDI,MNDI.L,Materials,Containers & packaging,0.013905066139656,18
+2025-12-19,Wikipedia:FTSE_100_Index,Polar Capital Technology Trust,PCT,PCT.L,Financials,Investment trusts,0.0132849860407383,19
+2025-12-19,Wikipedia:FTSE_100_Index,Bunzl,BNZL,BNZL.L,Industrials,Support services,0.0127122044365976,20
+2025-12-19,Wikipedia:FTSE_100_Index,Imperial Brands,IMB,IMB.L,Consumer Staples,Tobacco,0.0121817111583984,21
+2025-12-19,Wikipedia:FTSE_100_Index,BAE Systems,BA,BA.L,Industrials,Aerospace & defence,0.011689166045467,22
+2025-12-19,Wikipedia:FTSE_100_Index,Weir Group,WEIR,WEIR.L,Industrials,Industrial goods and services,0.0112307918415515,23
+2025-12-19,Wikipedia:FTSE_100_Index,BT Group,BT-A,BT.A.L,Communication Services,Telecommunications services,0.0108032868461896,24
+2025-12-19,Wikipedia:FTSE_100_Index,Scottish Mortgage Investment Trust,SMT,SMT.L,Financials,Collective investments,0.0104037532191874,25
+2025-12-19,Wikipedia:FTSE_100_Index,Anglo American plc,AAL,AAL.L,Materials,Mining,0.0100296377778374,26
+2025-12-19,Wikipedia:FTSE_100_Index,United Utilities,UU,UU.L,Utilities,Multiline utilities,0.0096786828324543,27
+2025-12-19,Wikipedia:FTSE_100_Index,ICG,ICG,ICG.L,Financials,Financial services,0.0093488851397007,28
+2025-12-19,Wikipedia:FTSE_100_Index,Reckitt,RKT,RKT.L,Consumer Discretionary,Household goods & home construction,0.0090384614602681,29
+2025-12-19,Wikipedia:FTSE_100_Index,British Land,BLND,BLND.L,Real Estate,Real estate,0.0087458195202911,30
+2025-12-19,Wikipedia:FTSE_100_Index,Compass Group,CPG,CPG.L,Industrials,Support services,0.0084695334180038,31
+2025-12-19,Wikipedia:FTSE_100_Index,Barratt Redrow,BTRW,BTRW.L,Consumer Discretionary,Household goods & home construction,0.0082083227058601,32
+2025-12-19,Wikipedia:FTSE_100_Index,Sainsbury's,SBRY,SBRY.L,Consumer Staples,Food & drug retailing,0.0079610345263902,33
+2025-12-19,Wikipedia:FTSE_100_Index,Croda International,CRDA,CRDA.L,Materials,Chemicals,0.0077266282969295,34
+2025-12-19,Wikipedia:FTSE_100_Index,IHG Hotels & Resorts,IHG,IHG.L,Consumer Discretionary,Travel & leisure,0.0075041625311564,35
+2025-12-19,Wikipedia:FTSE_100_Index,Informa,INF,INF.L,Communication Services,Media,0.0072927834594742,36
+2025-12-19,Wikipedia:FTSE_100_Index,Land Securities,LAND,LAND.L,Financials,Real estate investment trusts,0.0070917151697593,37
+2025-12-19,Wikipedia:FTSE_100_Index,Airtel Africa,AAF,AAF.L,Communication Services,Telecommunications services,0.0069002510379968,38
+2025-12-19,Wikipedia:FTSE_100_Index,Rightmove,RMV,RMV.L,Communication Services,Media,0.0067177462572398,39
+2025-12-19,Wikipedia:FTSE_100_Index,Intertek,ITRK,ITRK.L,Industrials,Support services,0.0065436113050312,40
+2025-12-19,Wikipedia:FTSE_100_Index,Spirax Group,SPX,SPX.L,Industrials,Industrial engineering,0.0063773062153655,41
+2025-12-19,Wikipedia:FTSE_100_Index,Entain,ENT,ENT.L,Consumer Discretionary,Travel & leisure,0.006218335542578,42
+2025-12-19,Wikipedia:FTSE_100_Index,Phoenix Group,PHNX,PHNX.L,Financials,Life insurance,0.0060662439221361,43
+2025-12-19,Wikipedia:FTSE_100_Index,Berkeley Group Holdings,BKG,BKG.L,Consumer Discretionary,Household goods & home construction,0.0059206121478694,44
+2025-12-19,Wikipedia:FTSE_100_Index,3i,III,III.L,Financials,Financial services,0.0057810536972845,45
+2025-12-19,Wikipedia:FTSE_100_Index,Persimmon,PSN,PSN.L,Consumer Discretionary,Household goods & home construction,0.0056472116467138,46
+2025-12-19,Wikipedia:FTSE_100_Index,Kingfisher plc,KGF,KGF.L,Consumer Discretionary,Retailers,0.0055187559265059,47
+2025-12-19,Wikipedia:FTSE_100_Index,Halma plc,HLMA,HLMA.L,Technology,Electronic equipment & parts,0.0053953808735744,48
+2025-12-19,Wikipedia:FTSE_100_Index,Marks & Spencer,MKS,MKS.L,Consumer Staples,Food & drug retailing,0.005276803044606,49
+2025-12-19,Wikipedia:FTSE_100_Index,Pearson plc,PSON,PSON.L,Communication Services,Media,0.0051627592582983,50
+2025-12-19,Wikipedia:FTSE_100_Index,Convatec,CTEC,CTEC.L,Health Care,Health care equipment & supplies,0.0050530048392854,51
+2025-12-19,Wikipedia:FTSE_100_Index,Beazley,BEZ,BEZ.L,Financials,Insurance,0.0049473120400643,52
+2025-12-19,Wikipedia:FTSE_100_Index,Fresnillo plc,FRES,FRES.L,Materials,Mining,0.0048454686203459,53
+2025-12-19,Wikipedia:FTSE_100_Index,Alliance Witan,ALW,ALW.L,Financials,Investment Trusts,0.0047472765659182,54
+2025-12-19,Wikipedia:FTSE_100_Index,Standard Chartered,STAN,STAN.L,Financials,Banks,0.004652550931389,55
+2025-12-19,Wikipedia:FTSE_100_Index,Games Workshop,GAW,GAW.L,Consumer Discretionary,Leisure Goods,0.0045611187931391,56
+2025-12-19,Wikipedia:FTSE_100_Index,Diploma,DPLM,DPLM.L,Industrials,Industrial Support services,0.0044728183005052,57
+2025-12-19,Wikipedia:FTSE_100_Index,JD Sports,JD,JD.L,Consumer Discretionary,General retailers,0.0043874978146706,58
+2025-12-19,Wikipedia:FTSE_100_Index,Aviva,AV,AV.L,Financials,Life insurance,0.0043050151260052,59
+2025-12-19,Wikipedia:FTSE_100_Index,EasyJet,EZJ,EZJ.L,Consumer Discretionary,Travel & leisure,0.0042252367416919,60
+2025-12-19,Wikipedia:FTSE_100_Index,DCC plc,DCC,DCC.L,Industrials,Support services,0.0041480372364273,61
+2025-12-19,Wikipedia:FTSE_100_Index,Haleon,HLN,HLN.L,Health Care,Pharmaceuticals & biotechnology,0.0040732986598167,62
+2025-12-19,Wikipedia:FTSE_100_Index,Severn Trent,SVT,SVT.L,Utilities,Multiline utilities,0.0040009099948045,63
+2025-12-19,Wikipedia:FTSE_100_Index,Melrose Industries,MRO,MRO.L,Industrials,Aerospace & defence,0.0039307666621165,64
+2025-12-19,Wikipedia:FTSE_100_Index,Ashtead Group,AHT,AHT.L,Industrials,Support services,0.0038627700662443,65
+2025-12-19,Wikipedia:FTSE_100_Index,Smith & Nephew,SN,SN.L,Health Care,Health care equipment & supplies,0.0037968271789905,66
+2025-12-19,Wikipedia:FTSE_100_Index,NatWest Group,NWG,NWG.L,Financials,Banks,0.0037328501570195,67
+2025-12-19,Wikipedia:FTSE_100_Index,Smiths Group,SMIN,SMIN.L,Industrials,General industrials,0.0036707559902381,68
+2025-12-19,Wikipedia:FTSE_100_Index,Centrica,CNA,CNA.L,Utilities,Multiline utilities,0.0036104661781635,69
+2025-12-19,Wikipedia:FTSE_100_Index,International Airlines Group,IAG,IAG.L,Consumer Discretionary,Travel & leisure,0.0035519064317278,70
+2025-12-19,Wikipedia:FTSE_100_Index,Vodafone Group,VOD,VOD.L,Communication Services,Mobile telecommunications,0.0034950063982327,71
+2025-12-19,Wikipedia:FTSE_100_Index,Antofagasta plc,ANTO,ANTO.L,Materials,Mining,0.0034396994073964,72
+2025-12-19,Wikipedia:FTSE_100_Index,Associated British Foods,ABF,ABF.L,Consumer Staples,Food & tobacco,0.0033859222366406,73
+2025-12-19,Wikipedia:FTSE_100_Index,Schroders,SDR,SDR.L,Financials,Financial services,0.00333361489395,74
+2025-12-19,Wikipedia:FTSE_100_Index,Hiscox,HSX,HSX.L,Financials,Non-life Insurance,0.0032827204167966,75
+2025-12-19,Wikipedia:FTSE_100_Index,Autotrader Group,AUTO,AUTO.L,Communication Services,Media,0.0032331846857675,76
+2025-12-19,Wikipedia:FTSE_100_Index,Endeavour Mining,EDV,EDV.L,Materials,Precious Metals and Mining,0.0031849562516658,77
+2025-12-19,Wikipedia:FTSE_100_Index,Rolls-Royce Holdings,RR,RR.L,Industrials,Aerospace & defence,0.0031379861749674,78
+2025-12-19,Wikipedia:FTSE_100_Index,Hikma Pharmaceuticals,HIK,HIK.L,Health Care,Pharmaceuticals & biotechnology,0.0030922278766237,79
+2025-12-19,Wikipedia:FTSE_100_Index,Metlen Energy & Metals,MTLN,MTLN.L,Utilities,Multiline utilities,0.0030476369992892,80
+2025-12-19,Wikipedia:FTSE_100_Index,Coca-Cola Europacific Partners,CCEP,CCEP.L,Consumer Staples,Beverages,0.0030041712781416,81
+2025-12-19,Wikipedia:FTSE_100_Index,M&G,MNG,MNG.L,Financials,Financial services,0.0029617904205325,82
+2025-12-19,Wikipedia:FTSE_100_Index,LondonMetric Property,LMP,LMP.L,Financials,Real Estate Investment Trusts,0.0029204559937777,83
+2025-12-19,Wikipedia:FTSE_100_Index,Admiral Group,ADM,ADM.L,Financials,Insurance,0.0028801313204564,84
+2025-12-19,Wikipedia:FTSE_100_Index,Segro,SGRO,SGRO.L,Financials,Real estate investment trusts,0.0028407813806413,85
+2025-12-19,Wikipedia:FTSE_100_Index,Glencore,GLEN,GLEN.L,Materials,Mining,0.0028023727205362,86
+2025-12-19,Wikipedia:FTSE_100_Index,SSE plc,SSE,SSE.L,Utilities,Electrical utilities & independent power producers,0.0027648733670372,87
+2025-12-19,Wikipedia:FTSE_100_Index,Howdens Joinery,HWDN,HWDN.L,Consumer Discretionary,Homebuilding & construction supplies,0.002728252747778,88
+2025-12-19,Wikipedia:FTSE_100_Index,Coca-Cola HBC,CCH,CCH.L,Consumer Staples,Beverages,0.0026924816162561,89
+2025-12-19,Wikipedia:FTSE_100_Index,Tesco,TSCO,TSCO.L,Consumer Staples,Food & drug retailing,0.0026575319816677,90
+2025-12-19,Wikipedia:FTSE_100_Index,F & C Investment Trust,FCIT,FCIT.L,Financials,Collective investments,0.0026233770431139,91
+2025-12-19,Wikipedia:FTSE_100_Index,Pershing Square Holdings,PSH,PSH.L,Financials,Financial services,0.0025899911278641,92
+2025-12-19,Wikipedia:FTSE_100_Index,Babcock International,BAB,BAB.L,Industrials,Aerospace & defence,0.0025573496333893,93
+2025-12-19,Wikipedia:FTSE_100_Index,Legal & General,LGEN,LGEN.L,Financials,Life insurance,0.002525428972903,94
+2025-12-19,Wikipedia:FTSE_100_Index,Sage Group,SGE,SGE.L,Technology,Software & computer services,0.0024942065241641,95
+2025-12-19,Wikipedia:FTSE_100_Index,Experian,EXPN,EXPN.L,Industrials,Support services,0.0024636605813182,96
+2025-12-19,Wikipedia:FTSE_100_Index,IMI,IMI,IMI.L,Industrials,Industrial engineering,0.0024337703095709,97
+2025-12-19,Wikipedia:FTSE_100_Index,Burberry Group,BRBY,BRBY.L,Consumer Discretionary,Personal goods,0.0024045157025013,98
+2025-12-19,Wikipedia:FTSE_100_Index,Next plc,NXT,NXT.L,Consumer Discretionary,General retailers,0.002375877541839,99
+2025-12-19,Wikipedia:FTSE_100_Index,Whitbread,WTB,WTB.L,Consumer Discretionary,Retail hospitality,0.0023478373595417,100
