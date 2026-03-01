@@ -148,7 +148,8 @@ FTSE-100-Financial-Analysis/
 ### End-to-end architecture (V2)
 
 ```mermaid
-%% FTSE-100-Financial-Analysis — End-to-End Architecture (V2 Platform)
+%% FTSE-100-Financial-Analysis - End-to-End Architecture (V2 Platform)
+
 flowchart LR
 
   %% Sources
@@ -212,8 +213,10 @@ flowchart LR
   ING --> LOG
   LOG --> MON --> ALERT --> INC
   DQREP --> MON
+
 ```
 ### Data lineage (medallion)
+
 ```mermaid
 %% FTSE-100-Financial-Analysis — Data Lineage (Medallion)
 flowchart TB
@@ -266,9 +269,11 @@ RSI/MACD/BB)]
   M8 --> D8
 
   R2 --> S2 --> C1
+
 ```
 
 ### Forecasting lifecycle
+
 ```mermaid
 %% Forecasting Lifecycle (V2)
 stateDiagram-v2
@@ -282,9 +287,11 @@ stateDiagram-v2
   Monitor --> RetrainDecision: breach thresholds?
   RetrainDecision --> TrainOrLoad: yes
   RetrainDecision --> DataReady: no
+
 ```
 
 ### Monitoring + alerts (sequence)
+
 ```mermaid
 %% Monitoring & Alerts Sequence (V2)
 sequenceDiagram
@@ -312,6 +319,7 @@ sequenceDiagram
     Dash->>Monitor: Report freshness + usage telemetry
     Monitor->>Incident: Log issues if SLA breached
   end
+  
 ```
 
 ---
