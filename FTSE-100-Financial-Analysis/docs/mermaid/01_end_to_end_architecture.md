@@ -1,0 +1,75 @@
+%% FTSE-100-Financial-Analysis - End-to-End Architecture (V2 Platform)
+
+flowchart LR
+  %% Sources
+  subgraph S[Data Sources]
+    YF[Yahoo Finance / Provider API]
+    CAL[Trading Calendar (UK)]
+    EVT[Events Feed (optional)]
+  end
+
+  %% Ingestion
+  subgraph I[Ingestion Layer]
+    ING[Ingest Job
+(schedule: 5m in session)]
+    RAW[(data/raw/
+provider_snapshots)]
+    LOG[(docs/logs/
+refresh_run_register.csv)]
+  end
+
+  %% Processing
+  subgraph P[Processing Layer]
+    STG[(data/staged/
+cleaned + tz-normalised)]
+    CUR[(data/curated/
+features + indicators)]
+    DQ[DQ Checks
+(dupes, gaps, OHLC sanity)]
+    DQREP[(dq reports + issue register)]
+  end
+
+  %% Modelling
+  subgraph M[Modelling Layer]
+    ARIMA[ARIMA baseline]
+    LSTM[LSTM sequence model]
+    FCAST[(outputs/forecasts)]
+    METR[(outputs/metrics)]
+  end
+
+  %% Serving
+  subgraph V[Serving Layer]
+    MART[(data/marts/
+mart.* tables)]
+    DASH[Dashboards
+(Power BI / Streamlit / Plotly)]
+    EXP[(docs/dashboards/*/exports
+4K PNGs)]
+  end
+
+  %% Monitoring
+  subgraph O[Ops & Monitoring]
+    MON[Monitoring
+(freshness, drift, SLA)]
+    ALERT[Alert Rules
+(OK/WARN/FAIL)]
+    INC[(Incident Register)]
+  end
+
+  %% Flows
+  YF --> ING --> RAW
+  CAL --> ING
+  EVT --> ING
+
+  RAW --> STG --> CUR --> MART
+  CUR --> DQ --> DQREP
+  DQREP --> DASH
+
+  CUR --> ARIMA --> FCAST
+  CUR --> LSTM --> FCAST
+  FCAST --> METR --> MART
+
+  MART --> DASH --> EXP
+  ING --> LOG
+  LOG --> MON --> ALERT --> INC
+  DQREP --> MON
