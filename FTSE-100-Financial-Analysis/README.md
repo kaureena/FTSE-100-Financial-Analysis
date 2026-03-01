@@ -146,6 +146,7 @@ FTSE-100-Financial-Analysis/
 ## Architecture diagrams (Mermaid)
 
 ### End-to-end architecture (V2)
+```
 %% FTSE-100-Financial-Analysis — End-to-End Architecture (V2 Platform)
 flowchart LR
 
@@ -210,7 +211,7 @@ flowchart LR
   ING --> LOG
   LOG --> MON --> ALERT --> INC
   DQREP --> MON
-
+```
 ### Data lineage (medallion)
 ```mermaid
 %% FTSE-100-Financial-Analysis — Data Lineage (Medallion)
