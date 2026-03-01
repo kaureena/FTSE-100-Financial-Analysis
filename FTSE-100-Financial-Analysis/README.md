@@ -149,24 +149,19 @@ FTSE-100-Financial-Analysis/
 
 ```mermaid
 %% FTSE-100-Financial-Analysis - End-to-End Architecture (V2 Platform)
-
 flowchart LR
-
-  %% Sources
   subgraph S["Data Sources"]
     YF["Yahoo Finance / Provider API"]
     CAL["Trading Calendar (UK)"]
     EVT["Events Feed (optional)"]
   end
 
-  %% Ingestion
   subgraph I["Ingestion Layer"]
     ING["Ingest Job (schedule: 5m in session)"]
     RAW["data/raw/provider_snapshots"]
     LOG["docs/logs/refresh_run_register.csv"]
   end
 
-  %% Processing
   subgraph P["Processing Layer"]
     STG["data/staged (cleaned + tz-normalised)"]
     CUR["data/curated (features + indicators)"]
@@ -174,7 +169,6 @@ flowchart LR
     DQREP["dq reports + issue register"]
   end
 
-  %% Modelling
   subgraph M["Modelling Layer"]
     ARIMA["ARIMA baseline"]
     LSTM["LSTM sequence model"]
@@ -182,21 +176,18 @@ flowchart LR
     METR["outputs/metrics"]
   end
 
-  %% Serving
   subgraph V["Serving Layer"]
     MART["data/marts (mart.* tables)"]
     DASH["Dashboards (Power BI / Streamlit / Plotly)"]
     EXP["docs/dashboards exports (4K PNGs)"]
   end
 
-  %% Monitoring
   subgraph O["Ops & Monitoring"]
     MON["Monitoring (freshness, drift, SLA)"]
     ALERT["Alert Rules (OK/WARN/FAIL)"]
     INC["Incident Register"]
   end
 
-  %% Flows
   YF --> ING --> RAW
   CAL --> ING
   EVT --> ING
@@ -213,50 +204,49 @@ flowchart LR
   ING --> LOG
   LOG --> MON --> ALERT --> INC
   DQREP --> MON
-
 ```
+
 ### Data lineage (medallion)
 
 ```mermaid
-%% FTSE-100-Financial-Analysis — Data Lineage (Medallion)
+%% FTSE-100-Financial-Analysis - Data Lineage (Medallion)
 flowchart TB
-  subgraph RAW[Raw]
-    R1[(raw: provider snapshots)]
-    R2[(raw: events optional)]
+  subgraph RAW["Raw"]
+    R1["raw: provider snapshots"]
+    R2["raw: events optional"]
   end
 
-  subgraph STG[Staged]
-    S1[(staged: ohlcv_clean)]
-    S2[(staged: calendar_joined)]
+  subgraph STG["Staged"]
+    S1["staged: ohlcv_clean"]
+    S2["staged: calendar_joined"]
   end
 
-  subgraph CUR[Curated]
-    C1[(curated: returns + vol)]
-    C2[(curated: indicators
-RSI/MACD/BB)]
-    C3[(curated: model_features)]
+  subgraph CUR["Curated"]
+    C1["curated: returns + vol"]
+    C2["curated: indicators (RSI/MACD/BB)"]
+    C3["curated: model_features"]
   end
 
-  subgraph MART[Marts]
-    M1[(mart.market_overview)]
-    M2[(mart.intraday_terminal)]
-    M3[(mart.volatility_regimes)]
-    M4[(mart.drawdown_risk)]
-    M5[(mart.forecasting_cockpit)]
-    M6[(mart.model_monitoring)]
-    M7[(mart.pipeline_health)]
-    M8[(mart.data_quality_health)]
+  subgraph MART["Marts"]
+    M1["mart.market_overview"]
+    M2["mart.intraday_terminal"]
+    M3["mart.volatility_regimes"]
+    M4["mart.drawdown_risk"]
+    M5["mart.forecasting_cockpit"]
+    M6["mart.model_monitoring"]
+    M7["mart.pipeline_health"]
+    M8["mart.data_quality_health"]
   end
 
-  subgraph DASH[Dashboards]
-    D1[V2-P01 Overview]
-    D2[V2-P02 Intraday]
-    D3[V2-P03 Vol Regimes]
-    D4[V2-P04 Risk]
-    D5[V2-P09 Forecasting]
-    D6[V2-P11 Monitoring]
-    D7[V2-P13 Pipeline Health]
-    D8[V2-P12 DQ]
+  subgraph DASH["Dashboards"]
+    D1["V2-P01 Overview"]
+    D2["V2-P02 Intraday"]
+    D3["V2-P03 Vol Regimes"]
+    D4["V2-P04 Risk"]
+    D5["V2-P09 Forecasting"]
+    D6["V2-P11 Monitoring"]
+    D7["V2-P13 Pipeline Health"]
+    D8["V2-P12 DQ"]
   end
 
   R1 --> S1 --> C1 --> M1 --> D1
@@ -267,9 +257,7 @@ RSI/MACD/BB)]
   C1 --> M6 --> D6
   M7 --> D7
   M8 --> D8
-
   R2 --> S2 --> C1
-
 ```
 
 ### Forecasting lifecycle
@@ -287,7 +275,6 @@ stateDiagram-v2
   Monitor --> RetrainDecision: breach thresholds?
   RetrainDecision --> TrainOrLoad: yes
   RetrainDecision --> DataReady: no
-
 ```
 
 ### Monitoring + alerts (sequence)
@@ -319,7 +306,6 @@ sequenceDiagram
     Dash->>Monitor: Report freshness + usage telemetry
     Monitor->>Incident: Log issues if SLA breached
   end
-  
 ```
 
 ---
