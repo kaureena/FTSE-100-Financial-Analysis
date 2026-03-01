@@ -146,7 +146,9 @@ FTSE-100-Financial-Analysis/
 ## Architecture diagrams (Mermaid)
 
 ### End-to-end architecture (V2)
-```
+### End-to-end architecture (V2)
+
+```mermaid
 %% FTSE-100-Financial-Analysis — End-to-End Architecture (V2 Platform)
 flowchart LR
 
