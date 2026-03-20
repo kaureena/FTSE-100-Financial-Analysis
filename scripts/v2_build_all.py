@@ -425,7 +425,7 @@ def main() -> None:
     ops_df.to_csv(V2_MONITORING_DIR / "reports" / "pipeline_runs_last14d.csv", index=False)
 
     # Latency SLA mock
-    latency = pd.DataFrame({"ts": pd.date_range(end=pd.to_datetime(latest_date), periods=200, freq="H"), "latency_ms": np.abs(rng.normal(850.0, 220.0, size=200))})
+    latency = pd.DataFrame({"ts": pd.date_range(end=pd.to_datetime(latest_date), periods=200, freq="h"), "latency_ms": np.abs(rng.normal(850.0, 220.0, size=200))})
     latency.to_csv(V2_MONITORING_DIR / "reports" / "latency_samples.csv", index=False)
 
     # Incident timeline (mock register for monitoring realism)
