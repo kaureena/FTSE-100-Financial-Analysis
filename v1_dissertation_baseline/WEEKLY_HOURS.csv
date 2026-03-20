@@ -1,0 +1,6 @@
+week_start,week_end,iso_week,total_hours,focus_area,notes
+19/01/2026,25/01/2026,2026-W04,9,Planning / theme + dashboard spec,"Initial repo positioning, UK terminal theme, page storyboard."
+26/07/2024,01/08/2024,2024-W05,16,V1 baseline data + DQ,"Snapshot ingest, cleaning, DQ rules, KPI baseline."
+02/08/2024,08/08/2024,2024-W06,22,V1 modelling + exports,"ARIMA + LSTM runs, forecasts, initial 4K exports."
+09/02/2026,15/02/2026,2026-W07,26,V2 medallion + monitoring,bronze/silver/gold + mart tables + monitoring reports.
+16/02/2026,17/02/2026,2026-W08,8,Final polish (week-to-date),Power BI export pack + governance logs + V1 diagrams folder.

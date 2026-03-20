@@ -1,0 +1,10 @@
+date,iso_week,stream,category,task,hours,evidence_path
+09/02/2026,2026-W07,V2,Data Eng,Bronze/silver/gold pipelines + partition conventions,5,v2_modernisation_realtime/data/
+10/02/2026,2026-W07,V2,Data Eng,Mart table design + materialisation (CSV+parquet),5,v2_modernisation_realtime/data/mart/
+11/02/2026,2026-W07,V2,Ops,"Monitoring reports (DQ, drift, latency, incidents)",5,v2_modernisation_realtime/monitoring/reports/
+12/02/2026,2026-W07,V2,Dashboards,V2 dashboard exports batch (4K),5,docs/dashboards/V2/exports/
+13/02/2026,2026-W07,V2,Platform,DuckDB warehouse build + local querying,4,v2_modernisation_realtime/db/warehouse.duckdb
+14/02/2026,2026-W07,V2,Data/Docs,Events enrichment stub + provider notes,1,DATA_PROVIDERS.md
+15/02/2026,2026-W07,V2,QA,Runbook review + smoke tests,1,tests/
+16/02/2026,2026-W08,V2,BI/PowerBI,Create Power BI export pack (neon terminal pages),4,v2_modernisation_realtime/bi_powerbi/exports/
+19/02/2026,2026-W08,Repo,Docs/Ops,Governance logs + V1 diagrams/dashboards folders,4,LOGBOOK.md; v1_dissertation_baseline/docs/

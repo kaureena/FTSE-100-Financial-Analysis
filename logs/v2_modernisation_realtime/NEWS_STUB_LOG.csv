@@ -1,0 +1,2 @@
+as_of_date,source,row_count,coverage_window,status,curation_rules,evidence_path
+2026-02-16,stub,30,2026-01-01..2026-02-14,PASS,No sensational claims; include headline + category + timestamp; label as stub,data/reference/market_news_headlines_stub.csv

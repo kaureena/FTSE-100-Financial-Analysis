@@ -1,0 +1,2 @@
+run_id,as_of,mae,rmse,status,notes
+v2_20260217T141158Z_c04a438c,2026-02-13,3.256988771725183,2.516286598366475,green,Model metrics from monitoring timeseries

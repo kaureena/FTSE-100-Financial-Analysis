@@ -1,0 +1,3 @@
+issue_id,date_opened,workstream,component,summary,severity,status,owner,evidence_path,root_cause,resolution,date_closed
+V1-ISSUE-001,2026-02-04,data,Gaps detected in intraday bars,Medium,Closed,Data Lead,v1_dissertation_baseline/outputs/metrics/time_gap_report.csv,Provider snapshot gaps,Flag gaps + annotate dashboard,2026-02-04
+V1-ISSUE-002,2026-02-05,dashboards,Export naming mismatch with spec (missing _10m suffix),Low,Closed,Dashboard Owner,v1_dissertation_baseline/outputs/forecasts/arima_forecast.csv,Naming inconsistency,Created canonical outputs and updated references,2026-02-05

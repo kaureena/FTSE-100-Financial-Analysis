@@ -1,0 +1,9 @@
+kpi,value,unit
+close_first,10402.48,points
+close_last,10446.35,points
+intraday_return_pct,0.42172635756090315,%
+high,10448.92,points
+low,10401.27,points
+range,47.649999999999636,points
+volume,660022612.0,shares
+realised_vol_20_mean,0.00024501475988212494,std

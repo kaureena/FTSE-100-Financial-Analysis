@@ -1,0 +1,8 @@
+page_id,export_path,expected_resolution,actual_resolution,status,notes
+V1-P01,docs/dashboards/V1/exports/v1_page_01_*.png,3840x2160,3840x2160,PASS,Fixed 4K canvas; footer includes run_id + London time
+V1-P02,docs/dashboards/V1/exports/v1_page_02_*.png,3840x2160,3840x2160,PASS,Fixed 4K canvas; footer includes run_id + London time
+V1-P03,docs/dashboards/V1/exports/v1_page_03_*.png,3840x2160,3840x2160,PASS,Fixed 4K canvas; footer includes run_id + London time
+V1-P04,docs/dashboards/V1/exports/v1_page_04_*.png,3840x2160,3840x2160,PASS,Fixed 4K canvas; footer includes run_id + London time
+V1-P05,docs/dashboards/V1/exports/v1_page_05_*.png,3840x2160,3840x2160,PASS,Fixed 4K canvas; footer includes run_id + London time
+V1-P06,docs/dashboards/V1/exports/v1_page_06_*.png,3840x2160,3840x2160,PASS,Fixed 4K canvas; footer includes run_id + London time
+V1-P07,docs/dashboards/V1/exports/v1_page_07_*.png,3840x2160,3840x2160,PASS,Fixed 4K canvas; footer includes run_id + London time

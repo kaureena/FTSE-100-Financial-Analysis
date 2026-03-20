@@ -1,0 +1,63 @@
+{
+  "name": "UK Neon Terminal",
+  "dataColors": [
+    "#2DE38A",
+    "#FF5C7A",
+    "#52A8FF",
+    "#FFB020",
+    "#B067FF",
+    "#38D9FF"
+  ],
+  "background": "#0B0F14",
+  "foreground": "#E6EDF7",
+  "tableAccent": "#52A8FF",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [
+          {
+            "show": true,
+            "fontFamily": "Segoe UI",
+            "fontSize": 12,
+            "color": {
+              "solid": {
+                "color": "#E6EDF7"
+              }
+            }
+          }
+        ],
+        "labels": [
+          {
+            "color": {
+              "solid": {
+                "color": "#A7B4C6"
+              }
+            },
+            "fontFamily": "Segoe UI",
+            "fontSize": 11
+          }
+        ],
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#111826"
+              }
+            },
+            "transparency": 10
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#263248"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

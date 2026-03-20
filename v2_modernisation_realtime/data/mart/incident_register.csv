@@ -1,0 +1,4 @@
+start,end,incident,severity,duration_min,run_id,incident_id,status,owner,notes
+2026-02-02,2026-02-02,Bronze ingest retry,low,0.0,v2_20260217T141158Z_c04a438c,INC-001,closed,Data Platform,
+2026-02-07,2026-02-08,Vendor API latency,medium,1440.0,v2_20260217T141158Z_c04a438c,INC-002,closed,Data Platform,
+2026-02-11,2026-02-11,DQ fail: duplicate timestamps,high,0.0,v2_20260217T141158Z_c04a438c,INC-003,closed,Data Platform,

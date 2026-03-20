@@ -1,0 +1,23 @@
+event_type,timestamp_local,timezone,country,category,event_name,impact,is_stub,source
+macro,2025-11-06 12:00:00,Europe/London,United Kingdom,Central Bank,Bank of England MPC Rate Decision,high,True,handcrafted_stub
+macro,2025-11-12 07:00:00,Europe/London,United Kingdom,Labour,UK Labour Market Report (Unemployment Rate),medium,True,handcrafted_stub
+macro,2025-11-14 07:00:00,Europe/London,United Kingdom,Growth,UK GDP (Preliminary) QoQ,high,True,handcrafted_stub
+macro,2025-11-19 07:00:00,Europe/London,United Kingdom,Inflation,UK CPI (Inflation) YoY,high,True,handcrafted_stub
+macro,2025-11-21 07:00:00,Europe/London,United Kingdom,Consumption,UK Retail Sales MoM,medium,True,handcrafted_stub
+macro,2025-11-24 09:30:00,Europe/London,United Kingdom,Surveys,UK PMI Flash (Manufacturing/Services),medium,True,handcrafted_stub
+macro,2025-11-26 12:30:00,Europe/London,United Kingdom,Fiscal,UK Autumn Statement (Fiscal Update),high,True,handcrafted_stub
+macro,2025-12-04 12:00:00,Europe/London,United Kingdom,Central Bank,Bank of England Financial Stability Report (stub),low,True,handcrafted_stub
+macro,2025-12-11 12:00:00,Europe/London,Eurozone,Central Bank,ECB Rate Decision (Eurozone),medium,True,handcrafted_stub
+macro,2025-12-16 09:30:00,Europe/London,United Kingdom,Surveys,UK PMI Flash (stub),medium,True,handcrafted_stub
+macro,2025-12-16 07:00:00,Europe/London,United Kingdom,Labour,UK Labour Market Report (stub),medium,True,handcrafted_stub
+macro,2025-12-17 07:00:00,Europe/London,United Kingdom,Inflation,UK CPI (Inflation) YoY,high,True,handcrafted_stub
+macro,2025-12-18 12:00:00,Europe/London,United Kingdom,Central Bank,Bank of England MPC Rate Decision,high,True,handcrafted_stub
+macro,2025-12-19 07:00:00,Europe/London,United Kingdom,Consumption,UK Retail Sales MoM,medium,True,handcrafted_stub
+macro,2026-01-07 19:00:00,Europe/London,United States,Central Bank,FOMC Minutes (US),medium,True,handcrafted_stub
+macro,2026-01-14 07:00:00,Europe/London,United Kingdom,Labour,UK Labour Market Report (Unemployment Rate),medium,True,handcrafted_stub
+macro,2026-01-15 12:00:00,Europe/London,Eurozone,Central Bank,ECB Rate Decision (stub),medium,True,handcrafted_stub
+macro,2026-01-21 07:00:00,Europe/London,United Kingdom,Inflation,UK CPI (Inflation) YoY,high,True,handcrafted_stub
+macro,2026-01-23 07:00:00,Europe/London,United Kingdom,Consumption,UK Retail Sales MoM,medium,True,handcrafted_stub
+macro,2026-01-29 12:00:00,Europe/London,United Kingdom,Central Bank,Bank of England MPC Rate Decision (stub),high,True,handcrafted_stub
+macro,2026-02-05 12:00:00,Europe/London,United Kingdom,Central Bank,Bank of England MPC Rate Decision,high,True,handcrafted_stub
+macro,2026-02-13 07:00:00,Europe/London,United Kingdom,Growth,UK GDP (Preliminary) QoQ (stub),high,True,handcrafted_stub

@@ -1,0 +1,5 @@
+table,pass,warn,fail
+bronze_intraday,95,4,1
+silver_intraday,93,6,1
+gold_daily,98,2,0
+gold_constituents,92,6,2

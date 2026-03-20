@@ -1,0 +1,4 @@
+version,date,notes
+v1.0,2026-02-10,Dissertation baseline replay dashboards
+v2.0,2026-02-16,Modern platform tables + monitoring + neon dashboards
+v2.1,2026-02-17,UK market terminal realism: FTSE100 constituents universe + macro/earnings events enrichment

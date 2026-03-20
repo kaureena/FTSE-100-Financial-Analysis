@@ -1,0 +1,6 @@
+issue_id,date,description,severity,owner,status,resolution,evidence_path
+ISS-001,28/07/2024,Gap detected in intraday bars (provider outage window),Medium,Data Eng,Closed,Added gap report + DQ snapshot; flagged in dashboard page 07,v1_dissertation_baseline/outputs/metrics/time_gap_report.csv
+ISS-002,07/02/2026,Parquet reader missing on some machines (pyarrow not installed),Low,Platform,Open,Keep CSV mirrors + DuckDB; document extra requirements,v2_modernisation_realtime/data/mart/*.csv
+ISS-003,10/02/2026,Sector names inconsistent between universe snapshot and rotation table,Low,Analytics,Closed,Standardised sector labels; added mapping in mart build,v2_modernisation_realtime/data/mart/sector_rotation.*
+ISS-004,15/02/2026,Export images slightly different across renderers,Low,Platform,Open,Pin versions; document export runbook; optional golden-image test,DASHBOARD_EXPORT_RUNBOOK.md
+ISS-005,18/02/2026,Dashboard export code referenced non-mart sources in one page,High,Platform,Closed,Refactored exports to read only mart parquet/csv,v2_modernisation_realtime/data/mart/

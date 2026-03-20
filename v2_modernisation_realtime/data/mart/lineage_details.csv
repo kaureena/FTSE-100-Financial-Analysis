@@ -1,0 +1,9 @@
+source,target,transform,run_id,owner,sla
+bronze.ftse100_intraday_1m_bronze,silver.ftse100_intraday_1m_silver,clean_enrich,v2_20260217T141158Z_c04a438c,Reena,5m intraday / 1d end-of-day
+silver.ftse100_intraday_1m_silver,gold.ftse100_daily_gold,daily_aggregate,v2_20260217T141158Z_c04a438c,Reena,5m intraday / 1d end-of-day
+gold.ftse100_daily_gold,mart.drawdown_risk,curate,v2_20260217T141158Z_c04a438c,Reena,5m intraday / 1d end-of-day
+gold.ftse100_sector_returns_daily,mart.sector_rotation,curate,v2_20260217T141158Z_c04a438c,Reena,5m intraday / 1d end-of-day
+gold.ftse100_sector_returns_daily,mart.correlation_matrix,curate,v2_20260217T141158Z_c04a438c,Reena,5m intraday / 1d end-of-day
+gold.ftse100_constituents_daily,mart.top_movers,curate,v2_20260217T141158Z_c04a438c,Reena,5m intraday / 1d end-of-day
+gold.events_calendar,mart.board_pack,enrich,v2_20260217T141158Z_c04a438c,Reena,5m intraday / 1d end-of-day
+mart.market_overview,dashboards.V2_P01,render,v2_20260217T141158Z_c04a438c,Reena,5m intraday / 1d end-of-day

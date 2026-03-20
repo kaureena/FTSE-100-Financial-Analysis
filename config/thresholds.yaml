@@ -1,0 +1,31 @@
+# Threshold configuration (V2)
+# These values are design defaults. Update through release notes when changed.
+
+freshness:
+  sla_minutes: 5
+  warn_minutes: 8
+  fail_minutes: 15
+
+data_quality:
+  dq_score_ok: 95
+  dq_score_warn: 90
+  dq_score_fail: 85
+  duplicate_count_fail: 1
+  ohlc_fail_count_fail: 1
+
+volatility_regimes:
+  # Realised volatility proxy (example bands)
+  calm_max: 0.60
+  normal_max: 1.20
+  stressed_min: 1.20
+
+model_monitoring:
+  rmse_drift_warn: 0.25
+  rmse_drift_fail: 0.50
+  ks_warn: 0.10
+  ks_fail: 0.20
+
+pipeline:
+  runtime_sla_seconds: 180
+  runtime_warn_seconds: 240
+  runtime_fail_seconds: 600

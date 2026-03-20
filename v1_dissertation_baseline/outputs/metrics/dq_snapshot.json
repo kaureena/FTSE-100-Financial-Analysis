@@ -1,0 +1,9 @@
+{
+  "run_id": "v1_20260217T140831Z_b0d2f871",
+  "dataset": "V1 intraday 1m",
+  "rows": 511,
+  "dq_status": "PASS",
+  "dq_score": 100.0,
+  "volume_spike_count": 6,
+  "gap_count": 0
+}

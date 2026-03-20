@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.dist/
+build/
+.cache/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local env
+.env
+.venv/
+.envrc
+
+# Data cache (live pulls)
+data_cache/
+v1_dissertation_baseline/data/cache/
+v2_modernisation_realtime/data/cache/
+
+# Logs (generated)
+*.log
+*.jsonl

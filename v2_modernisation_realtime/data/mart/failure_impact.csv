@@ -1,0 +1,2 @@
+run_id,incident_id,kpi,impact
+v2_20260217T141158Z_c04a438c,INC-003,dq_score,export_blocked

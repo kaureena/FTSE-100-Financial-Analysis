@@ -1,0 +1,2 @@
+dq_issue_id,date_opened,dataset,rule,severity,status,impact,resolution,evidence_path,date_closed
+DQ-001,2026-02-12,silver.ftse100_intraday,timestamp_continuity,Low,Closed,Minor chart discontinuity risk,Flagged gaps; added banner + gap report,v2_modernisation_realtime/monitoring/reports/dq_latest_session.csv,2026-02-12

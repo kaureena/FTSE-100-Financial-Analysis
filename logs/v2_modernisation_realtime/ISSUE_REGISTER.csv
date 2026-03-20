@@ -1,0 +1,4 @@
+issue_id,date_opened,workstream,component,summary,severity,status,owner,evidence_path,root_cause,resolution,date_closed
+V2-ISSUE-001,2026-02-13,dashboards,Some page exports too sparse; needs denser layout,Medium,Closed,Dashboard Owner,docs/dashboards/V2/exports/*,Layout density,Applied dense grid + compact charts,2026-02-14
+V2-ISSUE-002,2026-02-14,platform,DuckDB warehouse placeholder,High,Closed,Platform Owner,v2_modernisation_realtime/db/warehouse.duckdb,Not populated,Loaded all zones and marts into DuckDB,2026-02-14
+V2-ISSUE-003,2026-02-15,platform,Exports reading from gold rather than marts,High,Closed,Platform Owner,scripts/v2_export_from_marts.py,Source-of-truth mismatch,Enforced mart-only export pipeline,2026-02-15

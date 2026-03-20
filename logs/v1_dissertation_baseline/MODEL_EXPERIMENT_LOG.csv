@@ -1,0 +1,3 @@
+experiment_id,run_id,date,model,config,train_window,horizon,metrics_mae,metrics_rmse,notes,evidence_path
+V1EXP-ARIMA-001,V1RUN-20260205-01,2026-02-05,ARIMA,"order=(5,1,0)",intraday day snapshot,10 steps,TBD,TBD,Baseline ARIMA; residuals inspected,v1_dissertation_baseline/outputs/metrics/arima_metrics.json
+V1EXP-LSTM-001,V1RUN-20260205-01,2026-02-05,LSTM,"lookback=60, layers=[LSTM,LSTM,Dense], loss=MSE, opt=Adam",intraday day snapshot,10 steps,TBD,TBD,Baseline LSTM; training history logged,v1_dissertation_baseline/outputs/metrics/lstm_metrics.json

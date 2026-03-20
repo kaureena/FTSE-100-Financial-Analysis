@@ -1,0 +1,3 @@
+version_tag,component,impact,risk,run_id
+V2.1,marts,Dashboards read curated mart.* tables,low,v2_20260217T141158Z_c04a438c
+V2.1,warehouse,DuckDB local warehouse created,low,v2_20260217T141158Z_c04a438c

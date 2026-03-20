@@ -1,0 +1,6 @@
+kpi,definition,unit
+close,End-of-day index level,points
+daily_return,1-day percentage return,%
+rolling_vol_20,20-day annualised volatility,σ
+drawdown_pct,Drawdown from running peak,%
+momentum_10d_pct,10-day momentum,%

@@ -1,0 +1,26 @@
+%% Monitoring & Alerts Sequence (V2)
+sequenceDiagram
+  autonumber
+  participant Scheduler as Scheduler
+  participant Ingest as Ingestion Job
+  participant DQ as DQ Engine
+  participant Models as Forecast Runner
+  participant Mart as Mart Writer
+  participant Dash as Dashboard
+  participant Monitor as Monitor/Alert
+  participant Incident as Incident Register
+
+  Scheduler->>Ingest: Trigger (5m in session)
+  Ingest->>DQ: Send staged batch
+  DQ-->>Ingest: DQ status (pass/warn/fail)
+  alt DQ FAIL
+    DQ->>Monitor: Raise DQ_FAIL
+    Monitor->>Incident: Create incident + notify
+    Monitor->>Dash: Show RED banner (block forecasts)
+  else DQ PASS/WARN
+    Ingest->>Models: Run forecasting pipeline
+    Models->>Mart: Write forecasts + metrics
+    Mart->>Dash: Dash reads updated marts
+    Dash->>Monitor: Report freshness + usage telemetry
+    Monitor->>Incident: Log issues if SLA breached
+  end

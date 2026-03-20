@@ -1,0 +1,10 @@
+timestamp_local,source,category,headline,sentiment,timezone,is_stub,event_type,country
+2026-02-12 08:15:00,Financial Times (stub),Macro,Sterling steady ahead of UK GDP print; FTSE futures flat,neutral,Europe/London,True,news,United Kingdom
+2026-02-11 12:05:00,Reuters (stub),Equities,Energy majors lift FTSE as crude prices rise,positive,Europe/London,True,news,United Kingdom
+2026-02-10 09:01:00,Bloomberg (stub),Rates,Gilt yields edge higher as markets reprice BoE path,negative,Europe/London,True,news,United Kingdom
+2026-02-07 07:10:00,LSE RNS (stub),Earnings,Several FTSE names report quarterly results amid high volumes,neutral,Europe/London,True,news,United Kingdom
+2026-01-29 12:05:00,Bank of England (stub),Central Bank,BoE rate decision in focus; analysts watch guidance,neutral,Europe/London,True,news,United Kingdom
+2026-01-21 07:05:00,ONS (stub),Inflation,UK CPI release lands; rate expectations adjust,neutral,Europe/London,True,news,United Kingdom
+2026-01-15 07:05:00,Citywire (stub),Earnings,Earnings season kicks off; dispersion rises across sectors,neutral,Europe/London,True,news,United Kingdom
+2025-12-18 12:05:00,BBC Business (stub),Central Bank,"BoE decision day: gilt curve moves, banks watched",neutral,Europe/London,True,news,United Kingdom
+2025-11-26 12:35:00,HM Treasury (stub),Fiscal,UK fiscal statement sparks moves in domestics,neutral,Europe/London,True,news,United Kingdom

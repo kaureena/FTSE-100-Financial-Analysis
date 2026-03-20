@@ -1,0 +1,43 @@
+date,workstream,category,task,hours,evidence_path
+2026-01-27,Repo,monitoring,DQ/latency checks + register update,1.9,docs/*; logs/*
+2026-01-27,Repo,QA,Smoke checks + audit,0.6,docs/*; logs/*
+2026-01-28,Repo,docs,Docs update + cross-linking,0.5,docs/*; logs/*
+2026-01-28,Repo,data,Data prep / validation,1.0,docs/*; logs/*
+2026-01-29,Repo,docs,Docs update + cross-linking,1.4,docs/*; logs/*
+2026-01-29,Repo,model,Model run + metrics,1.1,docs/*; logs/*
+2026-01-30,Repo,monitoring,DQ/latency checks + register update,0.5,docs/*; logs/*
+2026-01-30,Repo,data,Data prep / validation,1.0,docs/*; logs/*
+2026-02-02,Repo,ops,Packaging / handover / review,1.3,docs/*; logs/*
+2026-02-02,Repo,model,Model run + metrics,1.2,docs/*; logs/*
+2026-02-02,Repo,QA,Smoke checks + audit,1.0,docs/*; logs/*
+2026-02-03,Repo,docs,Docs update + cross-linking,2.4,docs/*; logs/*
+2026-02-03,Repo,data,Data prep / validation,0.6,docs/*; logs/*
+2026-02-03,Repo,model,Model run + metrics,0.5,docs/*; logs/*
+2026-02-04,Repo,model,Model run + metrics,0.8,docs/*; logs/*
+2026-02-04,Repo,dashboards,Dashboard export QA + styling,0.7,docs/*; logs/*
+2026-02-05,Repo,dashboards,Dashboard export QA + styling,0.7,docs/*; logs/*
+2026-02-05,V2,data,Data prep / validation,1.2,v2_modernisation_realtime/*; docs/dashboards/V2/exports/*
+2026-02-05,V2,QA,Smoke checks + audit,1.1,v2_modernisation_realtime/*; docs/dashboards/V2/exports/*
+2026-02-06,V2,data,Data prep / validation,0.9,v2_modernisation_realtime/*; docs/dashboards/V2/exports/*
+2026-02-06,V2,docs,Docs update + cross-linking,1.1,v2_modernisation_realtime/*; docs/dashboards/V2/exports/*
+2026-02-08,V1,dashboards,Dashboard export QA + styling,0.5,v1_dissertation_baseline/*; docs/dashboards/V1/exports/*
+2026-02-08,V1,monitoring,DQ/latency checks + register update,0.0,v1_dissertation_baseline/*; docs/dashboards/V1/exports/*
+2026-02-09,V2,QA,Smoke checks + audit,0.9,v2_modernisation_realtime/*; docs/dashboards/V2/exports/*
+2026-02-09,V2,data,Data prep / validation,1.6,v2_modernisation_realtime/*; docs/dashboards/V2/exports/*
+2026-02-10,V1,dashboards,Dashboard export QA + styling,1.1,v1_dissertation_baseline/*; docs/dashboards/V1/exports/*
+2026-02-10,V1,data,Data prep / validation,1.5,v1_dissertation_baseline/*; docs/dashboards/V1/exports/*
+2026-02-10,Repo,monitoring,DQ/latency checks + register update,0.9,docs/*; logs/*
+2026-02-11,Repo,monitoring,DQ/latency checks + register update,1.3,docs/*; logs/*
+2026-02-11,V1,QA,Smoke checks + audit,0.7,v1_dissertation_baseline/*; docs/dashboards/V1/exports/*
+2026-02-12,V2,ops,Packaging / handover / review,0.9,v2_modernisation_realtime/*; docs/dashboards/V2/exports/*
+2026-02-12,V1,QA,Smoke checks + audit,0.6,v1_dissertation_baseline/*; docs/dashboards/V1/exports/*
+2026-02-13,V2,monitoring,DQ/latency checks + register update,1.4,v2_modernisation_realtime/*; docs/dashboards/V2/exports/*
+2026-02-13,Repo,data,Data prep / validation,1.1,docs/*; logs/*
+2026-02-14,V2,data,Data prep / validation,0.5,v2_modernisation_realtime/*; docs/dashboards/V2/exports/*
+2026-02-14,V2,dashboards,Dashboard export QA + styling,0.0,v2_modernisation_realtime/*; docs/dashboards/V2/exports/*
+2026-02-15,V2,monitoring,DQ/latency checks + register update,0.5,v2_modernisation_realtime/*; docs/dashboards/V2/exports/*
+2026-02-15,V1,monitoring,DQ/latency checks + register update,0.5,v1_dissertation_baseline/*; docs/dashboards/V1/exports/*
+2026-02-16,V1,model,Model run + metrics,0.5,v1_dissertation_baseline/*; docs/dashboards/V1/exports/*
+2026-02-16,V2,monitoring,DQ/latency checks + register update,2.0,v2_modernisation_realtime/*; docs/dashboards/V2/exports/*
+2026-02-17,V1,QA,Smoke checks + audit,0.6,v1_dissertation_baseline/*; docs/dashboards/V1/exports/*
+2026-02-17,V1,monitoring,DQ/latency checks + register update,0.9,v1_dissertation_baseline/*; docs/dashboards/V1/exports/*

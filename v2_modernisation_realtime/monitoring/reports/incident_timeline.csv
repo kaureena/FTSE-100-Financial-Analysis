@@ -1,0 +1,4 @@
+start,end,incident,severity
+2026-02-02,2026-02-02,Bronze ingest retry,low
+2026-02-07,2026-02-08,Vendor API latency,medium
+2026-02-11,2026-02-11,DQ fail: duplicate timestamps,high

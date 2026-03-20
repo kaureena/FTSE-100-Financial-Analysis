@@ -1,0 +1,23 @@
+page_id,export_path,expected_resolution,actual_resolution,status,notes
+V2-P01,docs/dashboards/V2/exports/v2_page_01_*.png,3840x2160,3840x2160,PASS,Export built from mart parquet only; neon terminal theme
+V2-P02,docs/dashboards/V2/exports/v2_page_02_*.png,3840x2160,3840x2160,PASS,Export built from mart parquet only; neon terminal theme
+V2-P03,docs/dashboards/V2/exports/v2_page_03_*.png,3840x2160,3840x2160,PASS,Export built from mart parquet only; neon terminal theme
+V2-P04,docs/dashboards/V2/exports/v2_page_04_*.png,3840x2160,3840x2160,PASS,Export built from mart parquet only; neon terminal theme
+V2-P05,docs/dashboards/V2/exports/v2_page_05_*.png,3840x2160,3840x2160,PASS,Export built from mart parquet only; neon terminal theme
+V2-P06,docs/dashboards/V2/exports/v2_page_06_*.png,3840x2160,3840x2160,PASS,Export built from mart parquet only; neon terminal theme
+V2-P07,docs/dashboards/V2/exports/v2_page_07_*.png,3840x2160,3840x2160,PASS,Export built from mart parquet only; neon terminal theme
+V2-P08,docs/dashboards/V2/exports/v2_page_08_*.png,3840x2160,3840x2160,PASS,Export built from mart parquet only; neon terminal theme
+V2-P09,docs/dashboards/V2/exports/v2_page_09_*.png,3840x2160,3840x2160,PASS,Export built from mart parquet only; neon terminal theme
+V2-P10,docs/dashboards/V2/exports/v2_page_10_*.png,3840x2160,3840x2160,PASS,Export built from mart parquet only; neon terminal theme
+V2-P11,docs/dashboards/V2/exports/v2_page_11_*.png,3840x2160,3840x2160,PASS,Export built from mart parquet only; neon terminal theme
+V2-P12,docs/dashboards/V2/exports/v2_page_12_*.png,3840x2160,3840x2160,PASS,Export built from mart parquet only; neon terminal theme
+V2-P13,docs/dashboards/V2/exports/v2_page_13_*.png,3840x2160,3840x2160,PASS,Export built from mart parquet only; neon terminal theme
+V2-P14,docs/dashboards/V2/exports/v2_page_14_*.png,3840x2160,3840x2160,PASS,Export built from mart parquet only; neon terminal theme
+V2-P15,docs/dashboards/V2/exports/v2_page_15_*.png,3840x2160,3840x2160,PASS,Export built from mart parquet only; neon terminal theme
+V2-P16,docs/dashboards/V2/exports/v2_page_16_*.png,3840x2160,3840x2160,PASS,Export built from mart parquet only; neon terminal theme
+V2-P17,docs/dashboards/V2/exports/v2_page_17_*.png,3840x2160,3840x2160,PASS,Export built from mart parquet only; neon terminal theme
+V2-P18,docs/dashboards/V2/exports/v2_page_18_*.png,3840x2160,3840x2160,PASS,Export built from mart parquet only; neon terminal theme
+V2-P19,docs/dashboards/V2/exports/v2_page_19_*.png,3840x2160,3840x2160,PASS,Export built from mart parquet only; neon terminal theme
+V2-P20,docs/dashboards/V2/exports/v2_page_20_*.png,3840x2160,3840x2160,PASS,Export built from mart parquet only; neon terminal theme
+V2-P21,docs/dashboards/V2/exports/v2_page_21_*.png,3840x2160,3840x2160,PASS,Export built from mart parquet only; neon terminal theme
+V2-P22,docs/dashboards/V2/exports/v2_page_22_*.png,3840x2160,3840x2160,PASS,Export built from mart parquet only; neon terminal theme

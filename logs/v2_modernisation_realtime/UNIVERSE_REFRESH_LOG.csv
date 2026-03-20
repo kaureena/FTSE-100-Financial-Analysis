@@ -1,0 +1,2 @@
+as_of_date,source,weight_method,row_count,weight_sum,sector_count,status,notes,evidence_path
+2025-12-19,snapshot,snapshot,100,1.0000,10,PASS,Demo weights normalised; sectors mapped to broad groups,data/reference/ftse100_constituents_universe_snapshot.csv
