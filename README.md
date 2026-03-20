@@ -1,11 +1,11 @@
 # FTSE-100-Financial-Analysis 🇬🇧📈
-**Master’s Project Portfolio Repo (UK-themed, dashboard-first).**
-
-## Overview
+**A production-style financial data analysis project designed to work offline using cached datasets, reproducible pipelines, and modular architecture.**
 
 1. This project is an offline-first FTSE 100 financial analysis repository.
 2. It uses cached snapshots for reproducible analysis and reliable execution.
 3. It includes stub/demo reference feeds for testing and development.
+
+## Overview
 
 This repository is built as a flagship portfolio project for **FTSE 100 financial market analysis**.
 It is delivered in two tracks:
